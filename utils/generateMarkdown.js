@@ -5,7 +5,7 @@ function generateMarkdown(data) {
   const tableOfContents = data.tableOfContents ? '\n## Table Of Contents\n\n' + keys.map(key => `* [${titleCase(key)}](#${key})`).join('\n') : '\n\n'
   const sections = keys.map(key => `## ${titleCase(key)}\n\nTODO Add ${key} information`).join('\n\n')
   return `
-![badmath](https://img.shields.io/github/last-commit/${data.username}/${data.repository})
+![badmath](https://img.shields.io/github/last-commit/${data.username}/${data.repository}) ![badmath](https://img.shields.io/github/issues-pr/${data.username}/${data.repository})
 # ${data.title}
 
 ## Description

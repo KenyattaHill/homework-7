@@ -54,12 +54,14 @@ const questions = [
   {
     type: 'input',
     name: 'username',
-    message: 'Please enter your github username'
+    message: 'Please enter your github username',
+    default: 'KenyattaHill'
   },
   {
     type: 'input',
     name: 'repository',
-    message: 'Please enter the name of your Github repository'
+    message: 'Please enter the name of your Github repository',
+    default: 'musicdiscovery'
   },
   
 ];
