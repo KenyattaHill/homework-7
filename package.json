@@ -1,8 +1,12 @@
 {
-  "name": "homework-7",
+  "name": "readme-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "newreadme": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +22,7 @@
   "homepage": "https://github.com/KenyattaHill/homework-7#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "inquirer-fuzzy-path": "^2.3.0"
   }
 }
